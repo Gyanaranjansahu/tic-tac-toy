@@ -22,15 +22,30 @@
     gap: 5px;
 }
 .box{
+    max-width: 100%;
     height: 17vmin;
     width: 17vmin;
     border-radius: 8px;
     border: none;
     font-size:50px;
-    font-family: cursive;
+    font-family:fantasy;
     color: rgb(249, 3, 3);
     background-color:peachpuff;
 
+}
+@media (max-width:560px) {
+    .box{
+        font-size: 30px;
+    }
+  #button{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+    
 }
 h1:hover{
     background-color: rgb(215, 2, 70);
@@ -55,6 +70,7 @@ h1:hover{
     color: aliceblue;
 }
 .RESTART{
+    max-width: 100%;
     height: 35px;
     width: 90px;
     background-color: rgb(54, 255, 4);
