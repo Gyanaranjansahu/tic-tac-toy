@@ -1,7 +1,7 @@
 let boxes=document.querySelectorAll(".box");
 let container=document.querySelector(".msg-container");
 let msg=document.querySelector("#msg");
-let btn=document.querySelector(".RESET");
+let btn=document.querySelector(".RESTART");
 let winner=[
     [0,1,2],
     [0,3,6],
